@@ -1,0 +1,45 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+virtualenv/
+gamebot-competition-master/PythonAPI/__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local gameplay data, logs, and trained artifacts
+gamebot-competition-master/match_logs/
+gamebot-competition-master/normalized_character_datasets/*.csv
+gamebot-competition-master/flattened_window_datasets/*.csv
+gamebot-competition-master/models/*.keras
+gamebot-competition-master/models/*.keras.scaler
+
+# Emulator state, ROMs, recordings, and archives
+**/State/
+**/*.smc
+**/*.sfc
+**/*.sav
+**/*.state
+**/*.state.*
+**/*.bak
+*.zip
+*.7z
+*.rar
+
+# Bundled emulator/runtime binaries
+**/*.exe
+**/*.dll
+**/*.pdb
+**/*.so
+**/*.dylib
+**/*.bin
+**/*.dat
+**/*.gz
+**/*.img
+
+# Emulator installations are local dependencies, not project source.
+gamebot-competition-master/single-player/
+gamebot-competition-master/two-players/
+
+# The prerequisite installer is distributed separately.
+bizhawk_prereqs.exe
